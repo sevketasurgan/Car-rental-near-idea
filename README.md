@@ -33,7 +33,7 @@ If you are using Windows:
 $CONTRACT="<your-account-id>"
 $OWNER="<your-testnet-account>"
 ```
-### Build And Deploy Project
+### 3- Build And Deploy Project
 ```
 yarn build:deploy
 ```
