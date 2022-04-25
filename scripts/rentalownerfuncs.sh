@@ -9,7 +9,7 @@ else
 fi
 if [ -z "$OWNER" ]
 then
-      echo "Please enter your contract account!"
+      echo "Please enter your testnet account!"
       read -p "OWNER account : " OWNER
 else
       echo "\$OWNER is NOT empty"
