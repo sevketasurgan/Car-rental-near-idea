@@ -31,7 +31,7 @@ echo 'About to call listAllCars() on the contract. This function listing rentals
 near view $CONTRACT listAllCars '{}' --accountId $OWNER
 
 echo '--------------------'
-echo 'About to call rentACar() on the contract. This function does rent a car.Write your rental id below'
+echo 'About to call returnCar() on the contract. This function does rent a car.Write your rental id below'
 read -p "Return ID: " returnid
 near call $CONTRACT returnCar '{"id":'$returnid'}' --accountId $OWNER
 
