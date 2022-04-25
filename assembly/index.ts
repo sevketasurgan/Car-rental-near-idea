@@ -43,8 +43,8 @@ export function returnCar(id: u32): Rentals[] {
   CustomerRent.returnCustomeronCar(id, Context.sender);
   return listAllRentals();
 }
-export function listAllCars(): void {
-  listAllRentals();
+export function listAllCars(): Rentals[] {
+  return Rentals.findAllCarsModel();
 }
 
 /* ------------------ */
