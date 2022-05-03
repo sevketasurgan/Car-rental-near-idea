@@ -2,7 +2,7 @@
 
 ### Car rental app on NEAR blockchain helps people rent a car with NEAR wallet.
 - [x] You can rent car with your wallet.
-- [x] Retrieve rental car .
+- [x] Return rental car .
 
 ## What is the project about ? 
 The main idea is to adapt the car rental process to the blockchain part. You can safely continue your car rental with web3 technology. The only process required for this is to have a NEAR wallet. Then you can choose one of the cars in the Car Rental, make your payment and complete the rental process. Your car rental process has been completed.
